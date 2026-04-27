@@ -11,7 +11,7 @@ Clone the repo somewhere stable, then link the `skills/` directory into one of O
 Example:
 
 ```bash
-git clone https://github.com/your-org/aftercare.git ~/.config/aftercare
+git clone https://github.com/5ysy/aftercare.git ~/.config/aftercare
 mkdir -p ~/.config/opencode
 ln -s ~/.config/aftercare/skills ~/.config/opencode/skills
 ```

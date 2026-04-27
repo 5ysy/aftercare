@@ -4,10 +4,10 @@
   "description": "Post-development architecture governance for coding agents. Reviews completed work, identifies architecture drift, proposes incremental refactors, and gates merge decisions.",
   "author": {
     "name": "Aftercare contributors",
-    "url": "https://github.com/your-org/aftercare"
+    "url": "https://github.com/5ysy/aftercare"
   },
-  "homepage": "https://github.com/your-org/aftercare",
-  "repository": "https://github.com/your-org/aftercare",
+  "homepage": "https://github.com/5ysy/aftercare",
+  "repository": "https://github.com/5ysy/aftercare",
   "license": "MIT",
   "keywords": [
     "architecture",

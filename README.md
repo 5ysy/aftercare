@@ -6,11 +6,11 @@
 
 The discipline layer that runs *after* the code already works.
 
-[![Release](https://img.shields.io/github/v/release/your-org/aftercare?color=369eff&labelColor=black&style=flat-square)](https://github.com/your-org/aftercare/releases)
+[![Release](https://img.shields.io/github/v/release/5ysy/aftercare?color=369eff&labelColor=black&style=flat-square)](https://github.com/5ysy/aftercare/releases)
 [![License](https://img.shields.io/badge/license-MIT-white?labelColor=black&style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/your-org/aftercare?color=ffcb47&labelColor=black&style=flat-square)](https://github.com/your-org/aftercare/stargazers)
-[![Issues](https://img.shields.io/github/issues/your-org/aftercare?color=ff80eb&labelColor=black&style=flat-square)](https://github.com/your-org/aftercare/issues)
-[![Contributors](https://img.shields.io/github/contributors/your-org/aftercare?color=c4f042&labelColor=black&style=flat-square)](https://github.com/your-org/aftercare/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/5ysy/aftercare?color=ffcb47&labelColor=black&style=flat-square)](https://github.com/5ysy/aftercare/stargazers)
+[![Issues](https://img.shields.io/github/issues/5ysy/aftercare?color=ff80eb&labelColor=black&style=flat-square)](https://github.com/5ysy/aftercare/issues)
+[![Contributors](https://img.shields.io/github/contributors/5ysy/aftercare?color=c4f042&labelColor=black&style=flat-square)](https://github.com/5ysy/aftercare/graphs/contributors)
 
 [Claude Code](docs/README.claude-code.md) · [OpenCode](docs/README.opencode.md) · [Workflows](docs/WORKFLOWS.md) · [Philosophy](docs/PHILOSOPHY.md)
 
@@ -152,7 +152,7 @@ If you would rather let your agent do the install, give it this:
 
 ```
 Install Aftercare into this repository by following the host-specific guide
-under docs/ in https://github.com/your-org/aftercare. Pick the file that
+under docs/ in https://github.com/5ysy/aftercare. Pick the file that
 matches my coding agent (Claude Code or OpenCode) and follow it exactly.
 ```
 
