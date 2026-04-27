@@ -1,0 +1,49 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "agent": {
+    "aftercare-reviewer": {
+      "description": "Read-only reviewer for architecture and maintainability after implementation",
+      "model": "anthropic/claude-sonnet-4-5",
+      "prompt": "Use the Aftercare skills to review completed work for architecture drift, boundary leaks, and maintainability risk. Prefer report quality over breadth.",
+      "tools": {
+        "write": false,
+        "edit": false
+      }
+    },
+    "aftercare-planner": {
+      "description": "Read-only planner that turns review findings into staged refactor plans",
+      "model": "anthropic/claude-sonnet-4-5",
+      "prompt": "Use Aftercare refactor-planning to turn findings into small safe steps with verification points.",
+      "tools": {
+        "write": false,
+        "edit": false
+      }
+    },
+    "aftercare-merge-gate": {
+      "description": "Read-only merge gate that gives a final verdict based on review findings",
+      "model": "anthropic/claude-sonnet-4-5",
+      "prompt": "Use Aftercare merge-readiness-review and end with a shipping verdict.",
+      "tools": {
+        "write": false,
+        "edit": false
+      }
+    }
+  },
+  "command": {
+    "aftercare-review": {
+      "description": "Run an Aftercare review on the current work",
+      "template": "Use Aftercare to review the current changes. Choose the relevant review skills, explain findings by severity, and recommend the next step.",
+      "agent": "aftercare-reviewer"
+    },
+    "aftercare-plan": {
+      "description": "Write an incremental refactor plan from Aftercare findings",
+      "template": "Use Aftercare refactor-planning to turn the current findings into a staged refactor plan.",
+      "agent": "aftercare-planner"
+    },
+    "aftercare-merge-gate": {
+      "description": "Decide merge readiness using Aftercare",
+      "template": "Use Aftercare merge-readiness-review on the current work and give a final merge verdict.",
+      "agent": "aftercare-merge-gate"
+    }
+  }
+}

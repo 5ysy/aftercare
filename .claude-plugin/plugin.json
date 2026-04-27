@@ -1,0 +1,21 @@
+{
+  "name": "aftercare",
+  "version": "0.1.0",
+  "description": "Post-development architecture governance for coding agents. Reviews completed work, identifies architecture drift, proposes incremental refactors, and gates merge decisions.",
+  "author": {
+    "name": "Aftercare contributors",
+    "url": "https://github.com/your-org/aftercare"
+  },
+  "homepage": "https://github.com/your-org/aftercare",
+  "repository": "https://github.com/your-org/aftercare",
+  "license": "MIT",
+  "keywords": [
+    "architecture",
+    "refactoring",
+    "code-review",
+    "claude-code",
+    "opencode",
+    "agent-skills"
+  ],
+  "agents": "./agents/"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "aftercare-dev",
+  "owner": {
+    "name": "Aftercare contributors"
+  },
+  "metadata": {
+    "description": "Local development marketplace for the Aftercare plugin",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "aftercare",
+      "description": "Post-development architecture governance for coding agents",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}
